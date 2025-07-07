@@ -27,27 +27,48 @@
   <div class="">  
     <i class="fa fa-exchange fa-5x" aria-hidden="true"></i>  
     <h3 style="color: black"> Southexchange</h3>  
-    <p>Compra e vendi MRN cliccando qui</p>  
+    <p>Compra e vendi MVC cliccando qui</p>  
   </div>  
 </a>  
 
   </div>  
 </div>  
 <div id="SC_TBlock_541497" class="SC_TBlock"><div>  
-<h3>Saldo Faucet</h3>  
-@if($faucetBalance !== null)  
-<p>Altezza della blockchain: {{ number_format($faucetBalance) }}</p>
+<h3>🔹 Informazioni Faucet</h3>
 
+@if($faucetBalance !== null)
+<p><strong>Saldo disponibile:</strong> {{ number_format($faucetBalance, 5) }} MVC</p>
 @else
-<p>Impossibile caricare lo stato del nodo</p>
+<p class="text-danger">❌ Impossibile recuperare il saldo del faucet.</p>
 @endif
+
+@if($nodeStatus !== null)
+<p><strong>Blocco corrente:</strong> {{ $nodeStatus['blockCount'] ?? 'N/D' }}</p>
+<p><strong>Versione del nodo:</strong> {{ $nodeStatus['version'] ?? 'N/D' }}</p>
+<p><strong>Peer attivi:</strong> {{ $nodeStatus['peerCount'] ?? 'N/D' }}</p>
+@else
+<p class="text-danger">❌ Stato del nodo non disponibile.</p>
+@endif
+
+
+@if($feeInfo !== null)
+<p><strong>Fee minima di rete:</strong> {{ number_format($feeInfo['minimalFee'] / 100000, 5) }} MVC</p>
+@else
+<p class="text-warning">⚠️ Informazioni fee non disponibili.</p>
+@endif
+
+
+
 
 </div>...</div>  
       </div>  
     </div>    <!-- content -->    <div class="col-md-9 ">  
     <div class="panel panel-default">  
       <div class="panel-heading">Pannello di controllo</div>  <div class="panel-body text-center">  
-    <p>Chiamata così in onore del MERCOSUR, è una nuova altcoin che, a differenza delle altre criptovalute, pensata per essere utilizzata esclusivamente nella regione latinoamericana. Questo non significa che siano vietate transazioni con il resto del mondo, ma che la regione sia la prima ad adottarla come criptovaluta ufficiale. L'obiettivo è che i cittadini della comunità si sentano parte di essa.</p>  
+    <p>Mevacoin nasce come simbolo di unione e progresso digitale.  
+Non è solo una criptovaluta: è uno strumento creato per rafforzare l’economia locale e dare voce a una nuova generazione di utenti.  
+Pensata per la comunità, vicina alle persone, pronta a diventare parte della vita quotidiana di chi crede in un futuro più libero e connesso.</p>
+
 
     @if (session('status'))  
       <div class="alert alert-success">  
@@ -56,7 +77,7 @@
     @endif  
 
     <p class="alert alert-info" role="alert">  
-      Per prelevare devi raggiungere 20 MRN. Il pulsante sarà sbloccato ogni 2 ore e ti darà un importo di 0.5 MRN  
+      Per prelevare devi raggiungere 20 MVC. Il pulsante sarà sbloccato ogni 2 ore e ti darà un importo di 0.5 MVC  
     </p>  
 
     <p>Tempo rimanente:</p>
@@ -82,14 +103,14 @@
       @if(!isset($wallet->last_retiro))  
         <input type="hidden" name="dato" value="empezar">  
         <button id="envio" class="btn btn-info btn-large" style="cursor: pointer">  
-          Inizia a guadagnare MRN  
+          Inizia a guadagnare MVC  
         </button>  
       @else  
 
         @if($wallet->last_retiro <=  \Carbon\Carbon::now())  
           <input type="hidden" name="dato" value="retirar">  
           <button id="envio" class="btn btn-success btn-lg btn-block" style="cursor: pointer">  
-            Preleva MRN  
+            Preleva MVC  
           </button>  
         @else  
           <p>Ti restano <b>  
@@ -123,7 +144,7 @@
     </div>  
   </div>    <div class="col-md-3 ">  
     <div class="panel panel-default">  
-      <div class="panel-heading">Social MRN</div>  
+      <div class="panel-heading">Social MVC</div>  
       <div class="panel-body text-center">  
         <a href="https://beta.mercoin.org/">  
           <div class="">  

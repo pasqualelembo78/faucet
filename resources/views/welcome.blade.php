@@ -16,7 +16,7 @@
 
             <!-- Header -->
             <header id="header" class="alt">
-                <h1><a href="{{ url('/home') }}">Mercoin</a></h1>
+                <h1><a href="{{ url('/home') }}">Mevacoin</a></h1>
                 <nav id="nav">
                     <div class="flex-center position-ref full-height">
                         @if (Route::has('login'))
@@ -35,11 +35,11 @@
 
             <!-- Banner -->
             <section id="banner">
-                <h2>Faucet - Mercoin</h2>
-                <p>Ottieni 0.5 MRN gratis ogni 2 ore e 2 MRN per ogni referral. Cosa aspetti a registrarti?</p>
+                <h2>Faucet - Mevacoin</h2>
+                <p>Ottieni 0.5 MVC gratis ogni 2 ore e 2 MVC per ogni referral. Cosa aspetti a registrarti?</p>
                 <ul class="actions">
                     <li><a href="{{ route('register') }}" class="button special">Registrati!</a></li>
-                    <li><a href="https://mercoin.org/" class="button">Informazioni su Mercoin</a></li>
+                    <li><a href="https://mevacoin.it/" class="button">Informazioni su Mevacoin</a></li>
                 </ul>
             </section>
 
@@ -48,12 +48,12 @@
 
                 <section class="box special">
                     <header class="major">
-                        <h2>Servizio Professionale<br />
-                        Design e Sviluppo di Faucet</h2>
-                        <p>Offriamo servizi di progettazione e sviluppo di faucet su Mercoin o su altre criptovalute.<br />
-                        Perché creare una faucet? <br/>
-                        Puoi monetizzarla con pubblicità o usarla per attirare traffico verso un sito web, un gruppo Telegram, ecc.<br />
-                        Una faucet porta molto traffico e nuovi utenti per i tuoi progetti. Per maggiori informazioni, contattaci!</p>
+                        <h2>Cos'è un Faucet Mevacoin?</h2>
+<p>Un faucet è un modo semplice per ricevere gratuitamente piccole quantità di Mevacoin.<br />
+Ogni utente può richiedere un premio a intervalli regolari, per iniziare a conoscere la criptovaluta e testare il sistema senza rischi.<br />
+È pensato per chi vuole esplorare il mondo di Mevacoin in modo facile, veloce e gratuito.<br />
+Richiedi subito il tuo premio e inizia il tuo viaggio!</p>
+
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm"><div id="SC_TBlock_545499" class="SC_TBlock">caricamento...</div></div>
@@ -66,37 +66,36 @@
                 </section>
 
                 <section class="box special features">
-                    <div class="features-row">
-                        <section>
-                            <span class="icon major fa-bolt accent2"></span>
-                            <h3>Alta Performance</h3>
-                            <p>Sistema ottimizzato per massime prestazioni e affidabilità.</p>
-                            <div id="SC_TBlock_545508" class="SC_TBlock">caricamento...</div>
-                        </section>
-                        <section>
-                            <span class="icon major fa-area-chart accent3"></span>
-                            <h3>Statistiche Dettagliate</h3>
-                            <p>Monitora il tuo traffico e i guadagni in tempo reale con report chiari.</p>
-                            <div id="SC_TBlock_545509" class="SC_TBlock">caricamento...</div>
-                        </section>
-                    </div>
-                    <div class="features-row">
-                        <section>
-                            <span class="icon major fa-cloud accent4"></span>
-                            <h3>Cloud Ready</h3>
-                            <p>Il nostro sistema è pronto per essere distribuito in ambienti cloud scalabili.</p>
-                            <div id="SC_TBlock_545511" class="SC_TBlock">caricamento...</div>
-                        </section>
-                        <section>
-                            <span class="icon major fa-lock accent5"></span>
-                            <h3>Sicurezza Avanzata</h3>
-                            <p>Protezione avanzata dei dati con i migliori standard di sicurezza.</p>
-                            <div id="SC_TBlock_545512" class="SC_TBlock">caricamento...</div>
-                        </section>
-                    </div>
-                </section>
+    <div class="features-row">
+        <section>
+            <span class="icon major fa-gift accent2"></span>
+            <h3>Ricompense Gratuite</h3>
+            <p>Ricevi Mevacoin senza costi: è veloce, semplice e perfetto per iniziare nel mondo crypto.</p>
+            <div id="SC_TBlock_545508" class="SC_TBlock">caricamento...</div>
+        </section>
+        <section>
+            <span class="icon major fa-chart-line accent3"></span>
+            <h3>Andamento in Tempo Reale</h3>
+            <p>Controlla saldo, richieste e cronologia direttamente dal sito. Tutto trasparente, tutto sotto controllo.</p>
+            <div id="SC_TBlock_545509" class="SC_TBlock">caricamento...</div>
+        </section>
+    </div>
+    <div class="features-row">
+        <section>
+            <span class="icon major fa-globe accent4"></span>
+            <h3>Accessibile da Ovunque</h3>
+            <p>Funziona su qualsiasi dispositivo. Basta un browser per accedere al faucet Mevacoin.</p>
+            <div id="SC_TBlock_545511" class="SC_TBlock">caricamento...</div>
+        </section>
+        <section>
+            <span class="icon major fa-shield-alt accent5"></span>
+            <h3>Tutto in Sicurezza</h3>
+            <p>Connessione sicura, dati protetti e transazioni criptate. Il tuo Mevacoin è al sicuro.</p>
+            <div id="SC_TBlock_545512" class="SC_TBlock">caricamento...</div>
+        </section>
+    </div>
+</section>
 
-            </section>
 
             <!-- Footer -->
             <footer id="footer">

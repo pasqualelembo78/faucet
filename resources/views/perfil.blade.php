@@ -22,14 +22,14 @@
                                 @else
                                     0.000
                                 @endif
-                                MRN
+                                MVC
                             </button>
                         </p>
                     </div>
 
                     <div class="col-sm-6">
                         <h3>Referenti</h3>
-                        <p>Puoi guadagnare 2 MRN per ogni persona che inviti. Condividi semplicemente il tuo link di riferimento e riceverai 2 MRN per ogni utente che si registra usando il tuo link.</p>
+                        <p>Puoi guadagnare 2 MVC per ogni persona che inviti. Condividi semplicemente il tuo link di riferimento e riceverai 2 MVC per ogni utente che si registra usando il tuo link.</p>
                         <p>
                             Numero di referenti:
                             <b>
@@ -51,10 +51,10 @@
                         <form class="" action="{{route('retirarPost')}}" method="post">
                             {{ csrf_field() }}
                             @if($user->wallet->balance >= 2)
-                                <button class="btn btn-primary btn-lg btn-block">Preleva MRN</button>
+                                <button class="btn btn-primary btn-lg btn-block">Preleva MVC</button>
                             @else
                                 <div class="btn btn-danger btn-lg btn-block">
-                                    Hai bisogno di almeno 20 MRN per prelevare
+                                    Hai bisogno di almeno 20 MVC per prelevare
                                 </div>
                             @endif
                         </form>
