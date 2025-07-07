@@ -1,0 +1,336 @@
+Laravel development server started: <http://0.0.0.0:8000>
+[Sat Jul  5 05:36:06 2025] PHP 7.4.3-4ubuntu2.29 Development Server (http://0.0.0.0:8000) started
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34018 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34018 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34018 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34028 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34028 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34028 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34034 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34034 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34034 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34042 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34042 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34042 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34058 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34058 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34058 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34064 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34064 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34064 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34080 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34080 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34080 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34094 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34094 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34094 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34110 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34110 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34110 Closing
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34118 Accepted
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34118 Invalid request (Malformed HTTP request)
+[Sat Jul  5 07:01:01 2025] 188.166.77.142:34118 Closing
+[Sat Jul  5 07:36:26 2025] 20.171.8.191:44816 Accepted
+[Sat Jul  5 07:36:26 2025] 20.171.8.191:44816 Invalid request (Unsupported SSL request)
+[Sat Jul  5 07:36:26 2025] 20.171.8.191:44816 Closing
+[Sat Jul  5 07:36:26 2025] 20.171.8.191:44832 Accepted
+[Sat Jul  5 07:36:36 2025] 20.171.8.191:44832 Invalid request (Unexpected EOF)
+[Sat Jul  5 07:36:36 2025] 20.171.8.191:44832 Closing
+[Sat Jul  5 07:57:36 2025] 206.168.34.121:47380 Accepted
+[Sat Jul  5 07:57:38 2025] 206.168.34.121:47380 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 07:57:38 2025] 206.168.34.121:47380 Closing
+[Sat Jul  5 07:57:38 2025] 206.168.34.121:47394 Accepted
+[Sat Jul  5 07:57:42 2025] 206.168.34.121:47394 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 07:57:42 2025] 206.168.34.121:47394 Closing
+[Sat Jul  5 07:57:42 2025] 206.168.34.121:50144 Accepted
+[Sat Jul  5 07:57:44 2025] 206.168.34.121:50144 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 07:57:44 2025] 206.168.34.121:50144 Closing
+[Sat Jul  5 07:57:57 2025] 206.168.34.121:52830 Accepted
+[Sat Jul  5 07:57:59 2025] 206.168.34.121:52830 Invalid request (Unsupported SSL request)
+[Sat Jul  5 07:57:59 2025] 206.168.34.121:52830 Closing
+[Sat Jul  5 08:43:10 2025] 31.6.19.5:54160 Accepted
+[Sat Jul  5 08:43:10 2025] 31.6.19.5:54160 Invalid request (Malformed HTTP request)
+[Sat Jul  5 08:43:10 2025] 31.6.19.5:54160 Closing
+[Sat Jul  5 08:45:28 2025] 3.137.146.232:43226 Accepted
+[Sat Jul  5 08:45:28 2025] 3.137.146.232:43226 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 08:45:28 2025] 3.137.146.232:43226 Closing
+[Sat Jul  5 11:20:05 2025] 65.49.20.67:60156 Accepted
+[Sat Jul  5 11:20:05 2025] 65.49.20.67:60156 Closing
+[Sat Jul  5 11:20:26 2025] 65.49.20.79:17673 Accepted
+[Sat Jul  5 11:20:26 2025] 65.49.20.79:17673 [200]: GET /favicon.ico
+[Sat Jul  5 11:20:26 2025] 65.49.20.79:17673 Closing
+[Sat Jul  5 11:20:33 2025] 65.49.20.103:25809 Accepted
+[Sat Jul  5 11:20:34 2025] 65.49.20.103:25809 Closing
+[Sat Jul  5 11:20:36 2025] 65.49.20.95:17643 Accepted
+[Sat Jul  5 11:20:36 2025] 65.49.20.95:17643 Invalid request (Malformed HTTP request)
+[Sat Jul  5 11:20:36 2025] 65.49.20.95:17643 Closing
+[Sat Jul  5 11:45:46 2025] 20.83.27.50:39498 Accepted
+[Sat Jul  5 11:45:46 2025] 20.83.27.50:39498 Closing
+[Sat Jul  5 13:42:08 2025] 91.231.89.205:33933 Accepted
+[Sat Jul  5 13:42:08 2025] 91.231.89.205:33933 Invalid request (Unsupported SSL request)
+[Sat Jul  5 13:42:08 2025] 91.231.89.205:33933 Closing
+[Sat Jul  5 13:42:09 2025] 91.231.89.119:51325 Accepted
+[Sat Jul  5 13:42:12 2025] 91.231.89.119:51325 Closing
+[Sat Jul  5 13:54:05 2025] 91.196.152.101:42023 Accepted
+[Sat Jul  5 13:54:12 2025] 91.196.152.101:42023 [200]: GET /favicon.ico
+[Sat Jul  5 13:54:12 2025] 91.196.152.101:42023 Closing
+[Sat Jul  5 14:52:35 2025] 20.186.232.154:44888 Accepted
+[Sat Jul  5 14:52:45 2025] 20.186.232.154:44888 Invalid request (Unexpected EOF)
+[Sat Jul  5 14:52:45 2025] 20.186.232.154:44888 Closing
+[Sat Jul  5 15:43:39 2025] 188.166.77.142:46924 Accepted
+[Sat Jul  5 15:43:39 2025] 188.166.77.142:46924 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:39 2025] 188.166.77.142:46924 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46930 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46930 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46930 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46940 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46940 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46940 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46952 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46952 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:46952 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44224 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44224 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44224 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44228 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44228 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44228 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44240 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44240 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44240 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44254 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44254 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44254 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44260 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44260 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44260 Closing
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44268 Accepted
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44268 Invalid request (Malformed HTTP request)
+[Sat Jul  5 15:43:40 2025] 188.166.77.142:44268 Closing
+[Sat Jul  5 16:59:20 2025] 185.218.84.47:33184 Accepted
+[Sat Jul  5 16:59:20 2025] 185.218.84.47:33184 Closing
+[Sat Jul  5 18:34:12 2025] 167.94.145.106:58846 Accepted
+[Sat Jul  5 18:34:15 2025] 167.94.145.106:58846 Invalid request (Connection reset by peer)
+[Sat Jul  5 18:34:15 2025] 167.94.145.106:58846 Closing
+[Sat Jul  5 18:34:15 2025] 167.94.145.106:58918 Accepted
+[Sat Jul  5 18:34:18 2025] 167.94.145.106:58918 Closing
+[Sat Jul  5 18:34:21 2025] 167.94.145.106:55136 Accepted
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55136 Closing
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55150 Accepted
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55150 [200]: GET /favicon.ico
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55150 Closing
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55158 Accepted
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55158 Invalid request (Malformed HTTP request)
+[Sat Jul  5 18:34:22 2025] 167.94.145.106:55158 Closing
+[Sat Jul  5 18:34:26 2025] 167.94.145.106:55192 Accepted
+[Sat Jul  5 18:34:26 2025] 167.94.145.106:55192 Invalid request (Malformed HTTP request)
+[Sat Jul  5 18:34:26 2025] 167.94.145.106:55192 Closing
+[Sat Jul  5 18:34:30 2025] 167.94.145.106:55214 Accepted
+[Sat Jul  5 18:34:30 2025] 167.94.145.106:55214 Invalid request (Unsupported SSL request)
+[Sat Jul  5 18:34:30 2025] 167.94.145.106:55214 Closing
+[Sat Jul  5 18:34:31 2025] 167.94.145.106:53216 Accepted
+[Sat Jul  5 18:34:32 2025] 167.94.145.106:53216 Closing
+[Sat Jul  5 18:54:13 2025] 206.168.34.77:42458 Accepted
+[Sat Jul  5 18:54:14 2025] 206.168.34.77:42458 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 18:54:14 2025] 206.168.34.77:42458 Closing
+[Sat Jul  5 18:54:14 2025] 206.168.34.77:42468 Accepted
+[Sat Jul  5 18:54:20 2025] 206.168.34.77:42468 Closing
+[Sat Jul  5 18:54:27 2025] 206.168.34.77:41834 Accepted
+[Sat Jul  5 18:54:31 2025] 206.168.34.77:41834 Closing
+[Sat Jul  5 18:54:35 2025] 206.168.34.77:50754 Accepted
+[Sat Jul  5 18:54:35 2025] 206.168.34.77:50754 [200]: GET /favicon.ico
+[Sat Jul  5 18:54:35 2025] 206.168.34.77:50754 Closing
+[Sat Jul  5 18:54:37 2025] 206.168.34.77:50776 Accepted
+[Sat Jul  5 18:54:38 2025] 206.168.34.77:50776 Invalid request (Malformed HTTP request)
+[Sat Jul  5 18:54:38 2025] 206.168.34.77:50776 Closing
+[Sat Jul  5 18:54:48 2025] 206.168.34.77:46858 Accepted
+[Sat Jul  5 18:54:49 2025] 206.168.34.77:46858 Invalid request (Malformed HTTP request)
+[Sat Jul  5 18:54:49 2025] 206.168.34.77:46858 Closing
+[Sat Jul  5 18:55:02 2025] 206.168.34.77:58142 Accepted
+[Sat Jul  5 18:55:05 2025] 206.168.34.77:58142 Invalid request (Unsupported SSL request)
+[Sat Jul  5 18:55:05 2025] 206.168.34.77:58142 Closing
+[Sat Jul  5 18:55:07 2025] 206.168.34.77:58200 Accepted
+[Sat Jul  5 18:55:08 2025] 206.168.34.77:58200 Closing
+[Sat Jul  5 21:18:34 2025] 45.131.155.253:60348 Accepted
+[Sat Jul  5 21:18:34 2025] 45.131.155.253:60348 Invalid request (Unsupported SSL request)
+[Sat Jul  5 21:18:34 2025] 45.131.155.253:60348 Closing
+[Sat Jul  5 21:18:34 2025] 45.131.155.253:60354 Accepted
+[Sat Jul  5 21:18:39 2025] 45.131.155.253:60354 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 21:18:39 2025] 45.131.155.253:60354 Closing
+[Sat Jul  5 21:18:39 2025] 45.131.155.253:44900 Accepted
+[Sat Jul  5 21:18:44 2025] 45.131.155.253:44900 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sat Jul  5 21:18:44 2025] 45.131.155.253:44900 Closing
+[Sat Jul  5 21:18:44 2025] 45.131.155.253:44946 Accepted
+[Sat Jul  5 21:18:44 2025] 45.131.155.253:44946 Invalid request (Unsupported SSL request)
+[Sat Jul  5 21:18:44 2025] 45.131.155.253:44946 Closing
+[Sat Jul  5 21:19:19 2025] 45.131.155.253:37698 Accepted
+[Sat Jul  5 21:19:19 2025] 45.131.155.253:37698 Invalid request (Unsupported SSL request)
+[Sat Jul  5 21:19:19 2025] 45.131.155.253:37698 Closing
+[Sat Jul  5 21:19:19 2025] 45.131.155.253:37706 Accepted
+[Sat Jul  5 21:19:19 2025] 45.131.155.253:37706 Closing
+[Sat Jul  5 22:42:55 2025] 45.82.78.254:48370 Accepted
+[Sat Jul  5 22:42:55 2025] 45.82.78.254:48370 [200]: GET /favicon.ico
+[Sat Jul  5 22:42:55 2025] 45.82.78.254:48370 Closing
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44090 Accepted
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44090 Invalid request (Unsupported SSL request)
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44090 Closing
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44100 Accepted
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44100 Invalid request (Unsupported SSL request)
+[Sun Jul  6 00:04:14 2025] 170.64.129.204:44100 Closing
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44108 Accepted
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44108 Invalid request (Unsupported SSL request)
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44108 Closing
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44116 Accepted
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44116 Invalid request (Unsupported SSL request)
+[Sun Jul  6 00:04:15 2025] 170.64.129.204:44116 Closing
+[Sun Jul  6 02:15:35 2025] 65.49.1.94:58868 Accepted
+[Sun Jul  6 02:15:35 2025] 65.49.1.94:58868 Closing
+[Sun Jul  6 02:15:49 2025] 65.49.1.102:20615 Accepted
+[Sun Jul  6 02:15:49 2025] 65.49.1.102:20615 [200]: GET /favicon.ico
+[Sun Jul  6 02:15:49 2025] 65.49.1.102:20615 Closing
+[Sun Jul  6 02:15:52 2025] 65.49.1.96:47451 Accepted
+[Sun Jul  6 02:15:52 2025] 65.49.1.96:47451 Closing
+[Sun Jul  6 02:15:59 2025] 65.49.1.96:32695 Accepted
+[Sun Jul  6 02:15:59 2025] 65.49.1.96:32695 Invalid request (Malformed HTTP request)
+[Sun Jul  6 02:15:59 2025] 65.49.1.96:32695 Closing
+[Sun Jul  6 02:22:24 2025] 84.104.229.103:57767 Accepted
+[Sun Jul  6 02:22:26 2025] 84.104.229.103:57767 Closing
+[Sun Jul  6 05:01:36 2025] 3.137.73.221:38646 Accepted
+[Sun Jul  6 05:01:36 2025] 3.137.73.221:38646 Closing
+[Sun Jul  6 05:02:49 2025] 3.137.73.221:50694 Accepted
+[Sun Jul  6 05:02:59 2025] 3.137.73.221:50694 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sun Jul  6 05:02:59 2025] 3.137.73.221:50694 Closing
+[Sun Jul  6 05:03:06 2025] 3.137.73.221:48846 Accepted
+[Sun Jul  6 05:03:06 2025] 3.137.73.221:48846 Closing
+[Sun Jul  6 05:04:30 2025] 3.137.73.221:40996 Accepted
+[Sun Jul  6 05:04:30 2025] 3.137.73.221:40996 Invalid request (Unsupported SSL request)
+[Sun Jul  6 05:04:30 2025] 3.137.73.221:40996 Closing
+[Sun Jul  6 05:06:57 2025] 3.137.73.221:60686 Accepted
+[Sun Jul  6 05:07:07 2025] 3.137.73.221:60686 Invalid request (Unexpected EOF)
+[Sun Jul  6 05:07:07 2025] 3.137.73.221:60686 Closing
+[Sun Jul  6 05:07:58 2025] 3.137.73.221:45462 Accepted
+[Sun Jul  6 05:07:58 2025] 3.137.73.221:45462 Invalid request (Unsupported SSL request)
+[Sun Jul  6 05:07:58 2025] 3.137.73.221:45462 Closing
+[Sun Jul  6 11:12:18 2025] 20.65.195.58:58166 Accepted
+[Sun Jul  6 11:12:18 2025] 20.65.195.58:58166 Invalid request (Unsupported SSL request)
+[Sun Jul  6 11:12:18 2025] 20.65.195.58:58166 Closing
+[Sun Jul  6 11:12:18 2025] 20.65.195.58:58172 Accepted
+[Sun Jul  6 11:12:28 2025] 20.65.195.58:58172 Invalid request (Unexpected EOF)
+[Sun Jul  6 11:12:28 2025] 20.65.195.58:58172 Closing
+[Sun Jul  6 11:16:12 2025] 45.147.250.222:51894 Accepted
+[Sun Jul  6 11:16:12 2025] 45.147.250.222:51894 Invalid request (Unsupported SSL request)
+[Sun Jul  6 11:16:12 2025] 45.147.250.222:51894 Closing
+[Sun Jul  6 14:42:27 2025] 18.188.229.2:37924 Accepted
+[Sun Jul  6 14:42:28 2025] 18.188.229.2:37924 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sun Jul  6 14:42:28 2025] 18.188.229.2:37924 Closing
+[Sun Jul  6 17:11:59 2025] 162.243.84.238:51634 Accepted
+[Sun Jul  6 17:11:59 2025] 162.243.84.238:51634 Closing
+[Sun Jul  6 18:18:27 2025] 170.64.143.136:35976 Accepted
+[Sun Jul  6 18:18:27 2025] 170.64.143.136:35976 Closing
+[Sun Jul  6 18:30:01 2025] 157.230.167.156:41994 Accepted
+[Sun Jul  6 18:30:01 2025] 157.230.167.156:41994 Invalid request (Unsupported SSL request)
+[Sun Jul  6 18:30:01 2025] 157.230.167.156:41994 Closing
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:41998 Accepted
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:41998 Invalid request (Unsupported SSL request)
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:41998 Closing
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42000 Accepted
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42000 Invalid request (Unsupported SSL request)
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42000 Closing
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42002 Accepted
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42002 Invalid request (Unsupported SSL request)
+[Sun Jul  6 18:30:02 2025] 157.230.167.156:42002 Closing
+[Sun Jul  6 19:28:41 2025] 167.94.146.53:35844 Accepted
+[Sun Jul  6 19:28:44 2025] 167.94.146.53:35844 Invalid request (Connection reset by peer)
+[Sun Jul  6 19:28:44 2025] 167.94.146.53:35844 Closing
+[Sun Jul  6 19:28:44 2025] 167.94.146.53:35866 Accepted
+[Sun Jul  6 19:28:47 2025] 167.94.146.53:35866 Closing
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48078 Accepted
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48078 Closing
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48094 Accepted
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48094 [200]: GET /favicon.ico
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48094 Closing
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48102 Accepted
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48102 Invalid request (Malformed HTTP request)
+[Sun Jul  6 19:28:50 2025] 167.94.146.53:48102 Closing
+[Sun Jul  6 19:28:54 2025] 167.94.146.53:48110 Accepted
+[Sun Jul  6 19:28:54 2025] 167.94.146.53:48110 Invalid request (Malformed HTTP request)
+[Sun Jul  6 19:28:54 2025] 167.94.146.53:48110 Closing
+[Sun Jul  6 19:28:57 2025] 167.94.146.53:48128 Accepted
+[Sun Jul  6 19:28:57 2025] 167.94.146.53:48128 Invalid request (Unsupported SSL request)
+[Sun Jul  6 19:28:57 2025] 167.94.146.53:48128 Closing
+[Sun Jul  6 19:28:57 2025] 167.94.146.53:48144 Accepted
+[Sun Jul  6 19:28:57 2025] 167.94.146.53:48144 Closing
+[Sun Jul  6 19:58:22 2025] 206.168.34.71:46192 Accepted
+[Sun Jul  6 19:58:30 2025] 206.168.34.71:46192 Closing
+[Sun Jul  6 19:58:40 2025] 206.168.34.71:54072 Accepted
+[Sun Jul  6 19:58:41 2025] 206.168.34.71:54072 [200]: GET /favicon.ico
+[Sun Jul  6 19:58:41 2025] 206.168.34.71:54072 Closing
+[Sun Jul  6 19:58:41 2025] 206.168.34.71:54078 Accepted
+[Sun Jul  6 19:58:42 2025] 206.168.34.71:54078 Invalid request (Malformed HTTP request)
+[Sun Jul  6 19:58:42 2025] 206.168.34.71:54078 Closing
+[Sun Jul  6 19:59:03 2025] 206.168.34.71:52368 Accepted
+[Sun Jul  6 19:59:04 2025] 206.168.34.71:52368 Invalid request (Malformed HTTP request)
+[Sun Jul  6 19:59:04 2025] 206.168.34.71:52368 Closing
+[Sun Jul  6 19:59:14 2025] 206.168.34.71:44722 Accepted
+[Sun Jul  6 19:59:16 2025] 206.168.34.71:44722 Invalid request (Unsupported SSL request)
+[Sun Jul  6 19:59:16 2025] 206.168.34.71:44722 Closing
+[Sun Jul  6 19:59:20 2025] 206.168.34.71:51840 Accepted
+[Sun Jul  6 19:59:22 2025] 206.168.34.71:51840 [200]: GET /robots.txt
+[Sun Jul  6 19:59:22 2025] 206.168.34.71:51840 Closing
+[Sun Jul  6 21:55:05 2025] 146.190.134.221:33458 Accepted
+[Sun Jul  6 21:55:05 2025] 146.190.134.221:33458 Closing
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:4708 Accepted
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7575 Accepted
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7575 Invalid request (Malformed HTTP request)
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7575 Closing
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7577 Accepted
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7577 Invalid request (Malformed HTTP request)
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:7577 Closing
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:4708 Invalid request (Malformed HTTP request)
+[Sun Jul  6 22:19:57 2025] 148.71.227.238:4708 Closing
+[Sun Jul  6 23:09:43 2025] 45.131.155.253:40182 Accepted
+[Sun Jul  6 23:09:43 2025] 45.131.155.253:40182 Invalid request (Unsupported SSL request)
+[Sun Jul  6 23:09:43 2025] 45.131.155.253:40182 Closing
+[Sun Jul  6 23:09:43 2025] 45.131.155.253:40188 Accepted
+[Sun Jul  6 23:09:48 2025] 45.131.155.253:40188 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sun Jul  6 23:09:48 2025] 45.131.155.253:40188 Closing
+[Sun Jul  6 23:09:48 2025] 45.131.155.253:35998 Accepted
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:35998 Closed without sending a request; it was probably just an unused speculative preconnection
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:35998 Closing
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36056 Accepted
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36056 Invalid request (Unsupported SSL request)
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36056 Closing
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36074 Accepted
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36074 Invalid request (Unsupported SSL request)
+[Sun Jul  6 23:09:53 2025] 45.131.155.253:36074 Closing
+[Sun Jul  6 23:09:54 2025] 45.131.155.253:36078 Accepted
+[Sun Jul  6 23:09:54 2025] 45.131.155.253:36078 Closing
+[Sun Jul  6 23:25:51 2025] 148.71.227.238:45926 Accepted
+[Sun Jul  6 23:25:51 2025] 148.71.227.238:45926 Invalid request (Malformed HTTP request)
+[Sun Jul  6 23:25:51 2025] 148.71.227.238:45926 Closing
+[Mon Jul  7 00:26:50 2025] 135.237.127.188:57660 Accepted
+[Mon Jul  7 00:27:00 2025] 135.237.127.188:57660 Invalid request (Unexpected EOF)
+[Mon Jul  7 00:27:00 2025] 135.237.127.188:57660 Closing
+[Mon Jul  7 01:01:46 2025] 45.82.78.254:44354 Accepted
+[Mon Jul  7 01:01:46 2025] 45.82.78.254:44354 [200]: GET /favicon.ico
+[Mon Jul  7 01:01:46 2025] 45.82.78.254:44354 Closing
+[Mon Jul  7 03:19:16 2025] 207.90.244.24:41570 Accepted
+[Mon Jul  7 03:19:16 2025] 207.90.244.24:41570 Closing
+[Mon Jul  7 03:19:17 2025] 207.90.244.24:41576 Accepted
+[Mon Jul  7 03:19:17 2025] 207.90.244.24:41576 [200]: GET /favicon.ico
+[Mon Jul  7 03:19:17 2025] 207.90.244.24:41576 Closing
+[Mon Jul  7 05:45:17 2025] 18.220.154.78:38496 Accepted
+[Mon Jul  7 05:45:27 2025] 18.220.154.78:38496 Invalid request (Unexpected EOF)
+[Mon Jul  7 05:45:27 2025] 18.220.154.78:38496 Closing
+[Mon Jul  7 06:02:43 2025] 184.105.139.68:41862 Accepted
+[Mon Jul  7 06:02:43 2025] 184.105.139.68:41862 Closing
+[Mon Jul  7 06:03:01 2025] 184.105.139.72:38809 Accepted
+[Mon Jul  7 06:03:01 2025] 184.105.139.72:38809 [200]: GET /favicon.ico
+[Mon Jul  7 06:03:01 2025] 184.105.139.72:38809 Closing
+[Mon Jul  7 06:03:05 2025] 184.105.139.116:7929 Accepted
+[Mon Jul  7 06:03:05 2025] 184.105.139.116:7929 Closing
+[Mon Jul  7 06:03:08 2025] 184.105.139.108:61299 Accepted
+[Mon Jul  7 06:03:08 2025] 184.105.139.108:61299 Invalid request (Malformed HTTP request)
+[Mon Jul  7 06:03:08 2025] 184.105.139.108:61299 Closing
+[Mon Jul  7 06:21:11 2025] 87.236.176.62:38349 Accepted
+[Mon Jul  7 06:21:14 2025] 87.236.176.62:38349 Closing

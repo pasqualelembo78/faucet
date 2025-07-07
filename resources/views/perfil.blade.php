@@ -50,7 +50,7 @@
                     <div class="col-sm-12">
                         <form class="" action="{{route('retirarPost')}}" method="post">
                             {{ csrf_field() }}
-                            @if($user->wallet->balance >= 20)
+                            @if($user->wallet->balance >= 2)
                                 <button class="btn btn-primary btn-lg btn-block">Preleva MRN</button>
                             @else
                                 <div class="btn btn-danger btn-lg btn-block">

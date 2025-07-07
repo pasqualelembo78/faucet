@@ -7,7 +7,9 @@ use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;        
 use App\User;        
 use App\Wallet;        
-use Illuminate\Support\Facades\Mail;        
+use Illuminate\Support\Facades\Mail;   
+use Illuminate\Support\Facades\Log;
+     
 
 class HomeController extends Controller        
 {        
@@ -162,70 +164,84 @@ private function getFaucetBalance()
         return redirect()->route('home');        
     }        
 
-    public function retirarPost(Request $request)        
-    {        
-        $wallet = Wallet::where('user_id', Auth::user()->id)->first();        
-        $address = $wallet->user->address;        
-        $balance = $wallet->balance;        
+   public function retirarPost(Request $request)
+{
+    $wallet = Wallet::where('user_id', Auth::id())->first();
 
-        if ($balance <= 0) {
-            return redirect()->route('perfil')->with('error', 'Saldo insuficiente per il ritiro.');
-        }
+    if (!$wallet) {
+        Log::error("Wallet non trovata per l'utente ID: " . Auth::id());
+        return redirect()->route('perfil')->with('error', 'Wallet non trovata.');
+    }
 
-        $payload = json_encode([
-            'jsonrpc' => '2.0',
-            'id' => '1',
-            'method' => 'sendTransaction',
-            'params' => [
-                'addresses' => [$address],
-                'transfers' => [
-                    [
-                        'address' => $address,
-                        'amount' => intval($balance * 100000000) // supponendo unità atomiche (adatta se serve)
-                    ]
-                ],
-                'fee' => 100000,
-                'anonymity' => 3
-            ]
-        ]);
+    $address = $wallet->user->address;
+    $amount = $wallet->balance;
 
-        $ch = curl_init('http://127.0.0.1:17082/json_rpc');        
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);        
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);        
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);        
+    Log::info("Tentativo di prelievo da parte dell'utente ID: " . Auth::id());
+    Log::debug("Indirizzo destinatario: $address | Saldo: $amount XKR");
 
-        $response = curl_exec($ch);        
-        curl_close($ch);        
+    if ($amount <= 0) {
+        Log::warning("Saldo insufficiente per il ritiro. Saldo: $amount");
+        return redirect()->route('perfil')->with('error', 'Saldo insufficiente per il ritiro.');
+    }
 
-        $wallet->balance = 0.00;        
-        $wallet->save();        
+    $amountAtomic = intval($amount * 100000);
+    Log::debug("Importo convertito in atomici: $amountAtomic");
 
-        return redirect(route('perfil'))->with('status', 'Ya retiraste tu mercoin, puedes revisar en tu monedero.');        
-    }        
+    $rpcUrl = 'http://127.0.0.1:17082/json_rpc';
+// ✅ assegniamo l'indirizzo di cambio (change) — deve essere del wallet mittente!
+$changeAddress = 'bickdGgqeVAWAKjbGCZoMfd2Ea6181wkAR3UzbaMkFWSMMgvZuPWpbJ1eJAcYbeSxJKSk34C8zCGFfETW17B1YkU1T5TCnjHts';
 
-    public function prueba()        
-{        
-    $payload = json_encode([
+    $payload = [
         'jsonrpc' => '2.0',
         'id' => '1',
-        'method' => 'getStatus',
-        'params' => (object)[] // oppure semplicemente []
-    ]);
+        'method' => 'sendTransaction',
+        'params' => [
+            'addresses' => [],
+            'transfers' => [
+                [
+                    'address' => $address,
+                    'amount' => $amountAtomic
+                ]
+            ],
+            'fee' => 10000,
+            'anonymity' => 0,
+        'changeAddress' => $changeAddress
 
-    $ch = curl_init('http://127.0.0.1:17082/json_rpc'); // <-- indirizzo RPC corretto
+            
+        ]
+    ];
+
+    Log::debug("Payload inviato: " . json_encode($payload));
+
+    $ch = curl_init($rpcUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
 
     $response = curl_exec($ch);
     curl_close($ch);
 
+    Log::debug("Risposta RPC: $response");
+
     $result = json_decode($response, true);
 
-    // ritorna i dati, o visualizzali
-    return response()->json($result);
+    if (isset($result['result'])) {
+        Log::info("Prelievo riuscito per utente ID: " . Auth::id());
+        $wallet->balance = 0.00;
+        $wallet->save();
+
+        return redirect()->route('perfil')->with('status', 'Hai ritirato con successo! Controlla il tuo wallet.');
+    } else {
+        $error = $result['error']['message'] ?? 'Errore sconosciuto.';
+        Log::error("Errore durante il prelievo: $error | Utente ID: " . Auth::id());
+
+        return redirect()->route('perfil')->with('error', 'Errore durante il prelievo: ' . $error);
+    }
 }
+
+
+
 
     public function activar($code)        
     {        
